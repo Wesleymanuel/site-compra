@@ -27,3 +27,11 @@ input{
 li{
     margin-left: 50px;
 }
+.box{
+    box-shadow: 2px 2px 2px 2px rgb(19, 17, 17);
+    height: 30px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 4px;
+    margin-right: 10px;
+}

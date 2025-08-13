@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter basename='/site-compra'>
       <Routes>
-        <Route path='/header' element={<Header/>} />
+        <Route path='*' element={<Header/>} />
         <Route path='/login' element={<Login/>} />
         <Route path='/cart' element={<Cart/>} />
         <Route path='/card1' element={<Card1/>} />

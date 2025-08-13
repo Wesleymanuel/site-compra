@@ -10,8 +10,12 @@ function Header(){
             <h1>teste</h1>
             <input type="text" />
             <ul className='ul'>
-                <li>carrinho</li>
-                <li><Link to="/login" >conta</Link></li>
+                <div className='box' >
+                    <li>carrinho</li>
+                </div>
+                <div className='box'>
+                    <li><Link to="/login" >conta</Link></li>
+                </div>
             </ul>
         </div>    
             <Cards/>
