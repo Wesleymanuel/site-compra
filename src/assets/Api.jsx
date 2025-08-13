@@ -18,8 +18,8 @@ function Api(){
            {produtos.map((prod) => (
             <div className='desing' >
              <img  className='prodimg' src={prod.image} alt="fotos" />
-             <h4 className='prod' >{`produto: ${prod.name}`}</h4>
-             <h4 className='value' >{`preco: ${prod.id} R$`}</h4>
+             <h5 className='prod' >{`produto: ${prod.name}`}</h5>
+             <h5 className='value' >{`preco: ${prod.id} R$`}</h5>
              <button>addcar</button>
             </div>
            ))}
