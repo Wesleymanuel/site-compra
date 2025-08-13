@@ -8,17 +8,18 @@ function Cart(){
     function add(){
         setCont(prev => prev+1)       
     }
-    function retire(){
+    function less(){
         setCont(prev => prev - 1)
     }
 
     return(
-        <div className='cart' >
-            <h1>cart</h1>
-            <h1>{cont}</h1> 
-            <button onClick={add}>cadd</button>
-            <button onClick={retire} >retire</button> 
-        </div>
+        <main className='main' >
+            <div className='contador' >
+                <h1>{cont}</h1>
+                <button onClick={add} >more</button>
+                <button onClick={less} >less</button>
+            </div>
+        </main>
     )
 
 }

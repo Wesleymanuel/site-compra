@@ -1,5 +1,5 @@
 import Api from "../Api";
-import Headerprod from "../../Componentes/Headerprod";
+import  Headerprod from "../../Componentes/Headerprod";
 
 function Card1(){
 

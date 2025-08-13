@@ -39,7 +39,6 @@
     margin-right: 20px;
 }
 .nav{
-    background-color: blueviolet;
     align-self: self-end;
     padding: 20px;
     width: 100%;
@@ -51,5 +50,10 @@ h3{
     padding: 3px;
     border-radius: 5px;
     text-align: center;
+    margin-left: 33px;
+    margin-right: 33px;
+}
+.lin{
+    text-decoration: none;
 }
 
